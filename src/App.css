@@ -1,0 +1,36 @@
+.container {
+  background-color: #8d62de;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  min-width: 120vh;
+}
+h2 {
+  color: bisque;
+}
+h1 {
+  color: rgb(251, 213, 166);
+}
+.items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.btnOne, .btnTwo {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  border: solid 2px bisque;
+  border-radius: 5px;
+  background-color: transparent;
+  color: bisque;
+  padding: 10px;
+  width: 300px;
+}
+.btnOne {
+  font-size: 15px;
+}
+.btnTwo {
+  font-size: 20px;
+}
